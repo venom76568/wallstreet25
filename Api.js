@@ -1,7 +1,7 @@
 // Api.js
 import axios from "axios";
 
-const baseURL = "https://wallstreet-backend.onrender.com/api";
+const baseURL = "https://wallstreet-backend-d9xq.onrender.com/api";
 
 export const registerUser = async (formData) => {
   try {
