@@ -36,22 +36,22 @@ const Timeline = () => {
 
         <ol className="relative p-4 max-w-2xl">
           <TimelineItem
-            date="19th January 2024"
+            date="17th January 2025"
             title="Registration Commences"
             description="Registration for the event commences"
           />
           <TimelineItem
-            date="5 February 2024"
+            date="3 February 2025"
             title="Gameplay Weekend Starts"
             description="Gameplay weekend starts for the registered participants"
           />
           <TimelineItem
-            date="9 February 2024"
+            date="7 February 2025"
             title="Final Day of Gameplay"
             description="Final day of gameplay for the registered participants"
           />
           <TimelineItem
-            date="9 February 2024"
+            date="9 February 2025"
             title="Results Announcement"
             description="Results are announced for the registered participants"
           />

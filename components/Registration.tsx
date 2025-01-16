@@ -25,7 +25,7 @@ export default function Register() {
   const [errors, setErrors] = useState({});
   const [registrationSuccess, setRegistrationSuccess] = useState(false);
 
-  const handleChange = (e :any) => {
+  const handleChange = (e: any) => {
     // Clear the validation error for the changed field
     setErrors((prevErrors) => ({ ...prevErrors, [e.target.name]: "" }));
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -67,15 +67,16 @@ export default function Register() {
           <h2 className="w-full text-5xl xl:text-6xl text-center py-10 font-semibold text-[#f06e3d] uppercase">
             Registration Successful!
           </h2>
-          <p className="text-white text-xl text-center">Join this whatsapp grp for more updates </p>
-          <a href="https://chat.whatsapp.com/ES60fPE1voUL0m77d8bitB"
-          className="text-white text-xl text-center"
-          ><button
-          
-          className="rounded bg-gradient-to-b from-[#ff4e00] to-[#e43108] hover:from-[#fd4b55] hover:to-[#e43068] py-4 px-8 text-base text-white"
-        >
-          JOIN NOW
-        </button>
+          <p className="text-white text-xl text-center">
+            Join this whatsapp grp for more updates{" "}
+          </p>
+          <a
+            href="https://chat.whatsapp.com/IvEg1Uo6MnCDdGHzBUvuHX"
+            className="text-white text-xl text-center"
+          >
+            <button className="rounded bg-gradient-to-b from-[#ff4e00] to-[#e43108] hover:from-[#fd4b55] hover:to-[#e43068] py-4 px-8 text-base text-white">
+              JOIN NOW
+            </button>
           </a>
         </div>
       </div>
