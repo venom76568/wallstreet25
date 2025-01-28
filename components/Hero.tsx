@@ -7,8 +7,8 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen bg-gray-900 bg-[url('/assets/wallstreet-poster.jpeg')] bg-blend-difference bg-cover bg-origin-border bg-center">
-      <div className="h-full ">
+    <div className="min-h-screen bg-gray-900 bg-[url('/assets/wallstreet-poster.jpg')] bg-blend-difference bg-cover bg-origin-border bg-center">
+      <div className="h-full bg-gradient-to-b from-[rgba(0,0,0,0.5)] to-[rgb(0,0,0,0.95)] bg-opacity-[0.8]">
         <Navbar />
         <div className="flex flex-col justify-center items-center text-white px-4 md:py-4 lg:p-10 lg:py-10 xl:px-20">
           <div className="grid grid-rows-4 gap-4 w-full h-screen items-center">
