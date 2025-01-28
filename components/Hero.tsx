@@ -1,8 +1,8 @@
 import React from "react";
 
 import Navbar from "./Navbar";
-import logo from '../public/assets/logo1.png';
-import logo1 from "../public/assets/wallstreet.png";
+import logo from "../public/assets/logo1.png";
+import logo1 from "../public/assets/wallstreet-poster.jpeg";
 import Image from "next/image";
 
 const Hero = () => {
@@ -45,8 +45,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
-}
+};
 
 export default Hero;
